@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Funkitribe - Shopping Cart</title>
   <style>
-    /* Add your CSS styles here */
-    /* For simplicity, we'll keep the styling minimal in this example */
+    
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -19,6 +18,24 @@
       color: #fff;
       padding: 20px;
       text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
     }
 
     .container {
@@ -56,21 +73,17 @@
       text-align: center;
     }
   </style>
-  <script>
-    function goToHomePage() {
-      window.location.href = "index.html"; // Replace "index.html" with the filename of your main page
-    }
-  </script>
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#" onclick="goToHomePage()">Home</a></li>
-        <li><a href="#new-arrivals">New Arrivals</a></li>
-        <li><a href="#featured-products">Featured Products</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html"><span>&#127968;</span> Home</a></li>
+        <li><a href="tops.html"><span>&#128085;</span> Tops</a></li>
+        <li><a href="bottoms.html"><span>&#128086;</span> Bottoms</a></li>
+        <li><a href="accessories.html"><span>&#128247;</span> Accessories</a></li>
+        <li><a href="contact.html"><span>&#128231;</span> Contact</a></li>
       </ul>
     </nav>
     <h1>Funkitribe - Shopping Cart</h1>
@@ -113,8 +126,9 @@
   </div>
 
   <footer>
-    <!-- Add your footer content here -->
+    
   </footer>
 </body>
 
 </html>
+
