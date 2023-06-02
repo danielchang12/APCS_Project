@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funkitribe - Contact</title>
+  <style>
+    /* Add your CSS styles here */
+    /* For simplicity, we'll keep the styling minimal in this example */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form textarea {
+      height: 100px;
+    }
+
+    .contact-form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tops.html">Tops</a></li>
+        <li><a href="bottoms.html">Bottoms</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Funkitribe - Contact</h1>
+  </header>
+
+  <div class="container">
+    <h2>Contact Us</h2>
+
+    <div class="contact-form">
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+</body>
+
+</html>

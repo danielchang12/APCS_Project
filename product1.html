@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - Funkitribe</title>
+  <style>
+    /* Add your CSS styles here */
+    /* For simplicity, we'll keep the styling minimal in this example */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .product-details {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .product-images {
+      width: 50%;
+      padding-right: 20px;
+    }
+
+    .product-images img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .product-info {
+      width: 50%;
+    }
+
+    .product-info h2 {
+      margin-top: 0;
+    }
+
+    .product-info p {
+      margin-bottom: 10px;
+    }
+
+    .product-info .color-variants {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .product-info .color-variants label {
+      margin-right: 10px;
+    }
+
+    .product-info .add-to-cart-button {
+      margin-top: 20px;
+    }
+
+    /* Add any additional styles as needed */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Product Details</h1>
+    <div class="product-details">
+      <div class="product-images">
+        <img src="product1.jpg" alt="Product 1">
+        <!-- Add additional images if available -->
+      </div>
+      <div class="product-info">
+        <h2>Product 1</h2>
+        <p>Price: $XX.XX</p>
+        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="color-variants">
+          <label for="color-variant">Color:</label>
+          <select id="color-variant">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <!-- Add additional color variants if available -->
+          </select>
+        </div>
+        <!-- Add size options, customer reviews, and other relevant information -->
+        <button class="add-to-cart-button">Add to Cart</button>
+        <a href="index.html">Back to Main Page</a> <!-- Link to the main page -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
